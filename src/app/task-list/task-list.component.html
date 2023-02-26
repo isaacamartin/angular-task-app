@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let c of taskList" >
+        <a [routerLink] = "['/details', c.id]"> {{c.taskName}} </a>
+    </li>
+</ul>

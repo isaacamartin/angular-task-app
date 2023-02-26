@@ -1,0 +1,12 @@
+<hr />
+<h3>Task List</h3>
+<hr />
+<div *ngFor="let task of listOfTasks">
+  <p>
+    <a routerLink="/listalltasks/{{ task.id }} ">
+    Name of Task: {{ task.taskName }} <br>
+    Description: {{ task.taskDescription }}
+    </a>
+  </p>
+  <button (click)="deleteTask(task.id)">Delete task</button>
+</div>

@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "taskName": "Clean My Apartment",
+      "taskTime": "2 Hours",
+      "taskDescription": "Polish up the old sty-hole",
+      "taskItems": "bleach, fabulousso, one heavy towel, sponges"
+    },
+    {
+      "id": 2,
+      "taskName": "Hide The Bodies",
+      "taskTime": "Two Weeks",
+      "taskDescription": "Get rid of any evidence of my...activities",
+      "taskItems": "chainsaw,front end loader, a deep hole, 50 gallon drum, boric acid, muriatic acid, MSR 700 Acid Cleaner(Just in case the first two don't work fast enough), and a birthday cake as a coping mechanism"
+    }
+  ]
+}
